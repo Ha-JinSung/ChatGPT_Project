@@ -1,0 +1,12 @@
+{% extends 'base.html' %} {% block content %} {% load static %}
+
+<form id="signup-form" method="post">
+    {% csrf_token %}
+    <input type="text" name="username" placeholder="Username">
+    <input type="password" name="password" placeholder="Password">
+    <input type="submit" value="Sign Up">
+</form>
+
+
+
+{% endblock %}

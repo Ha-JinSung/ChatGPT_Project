@@ -1,0 +1,10 @@
+2023-11-30 16:12:29,691 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2023-11-30 16:15:35,720 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2023-11-30 16:25:03,717 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2023-11-30 16:25:35,129 [WARNING] django.request: Not Found: /favicon.ico
+2023-11-30 16:25:58,678 [INFO] django.utils.autoreload: C:\Users\tt\Desktop\project\blog\accounts\views.py changed, reloading.
+2023-11-30 16:25:59,233 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2023-11-30 16:26:16,063 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2023-11-30 16:28:24,053 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2023-11-30 16:28:35,950 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2023-11-30 16:31:37,405 [INFO] django.utils.autoreload: Watching for file changes with StatReloader

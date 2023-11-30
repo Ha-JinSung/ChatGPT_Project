@@ -1,0 +1,10 @@
+{% extends 'base.html' %} {% block content %} {% load static %}
+
+<h1>프로필 페이지입니다.</h1>
+<p>{{user}}의 프로필 페이지입니다. 닉네임은 {{ user.profile.nickname }}입니다.</p>
+
+
+{% if user.is_authenticated %}
+<a href="{% url 'accounts:change_password' %}">비밀번호 수정</a>
+<a href="{% url 'accounts:user_delete' %}">회원 탈퇴</a> {% endif %} {% endblock %}
+
